@@ -86,17 +86,17 @@ function SignInSide() {
                 control={<Checkbox value="remember" color="primary" />}
                 label="Remember me"
               />
-              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
+              <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}  style={{background: '#070f42'}}>
                 Sign In
               </Button>
               <Grid container>
                 <Grid item xs>
-                  <Link href="#" variant="body2">
+                  <Link href="/reset" variant="body2">
                     Forgot password?
                   </Link>
                 </Grid>
                 <Grid item>
-                  <Link href="#" variant="body2">
+                  <Link href="/reg" variant="body2">
                     {"Don't have an account? Sign Up"}
                   </Link>
                 </Grid>
